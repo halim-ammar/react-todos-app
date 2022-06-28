@@ -17,7 +17,7 @@ function Input(props) {
           props.addTodo(text);
           setText('');
         }}
-        disabled = {text.length == 0}
+        disabled = {text.length === 0}
       >
         Save 
       </button>
